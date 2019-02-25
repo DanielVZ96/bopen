@@ -2,7 +2,7 @@
 Open bookmarks from the shell
 
 # TODO
-- [] Suport Firefox (Currently only support chromium browsers).
+- [] Suport Firefox.
 
 - [] Automatically detect default browser cookies.
 
