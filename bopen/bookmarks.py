@@ -1,5 +1,6 @@
 import os
 import json
+from os_helpers import MACOS
 BOOKMARKS_PATH = os.environ.get('BOOKMARKS', None)
 
 def get_bookmarks(bookmarks_folder='bookmark_bar'):
@@ -14,5 +15,4 @@ def get_bookmarks(bookmarks_folder='bookmark_bar'):
             if not bookmark['name'] == ''
         ]
     return bookmarks
-
 
