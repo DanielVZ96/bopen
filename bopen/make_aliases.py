@@ -13,16 +13,14 @@ def make_alias(bookmark, bopen_prefix='b-'):
     return 'alias {}{}="open {}"'.format(bopen_prefix, name, url)
 
 def make_aliases(bookmarks, **kwargs):
-    aliases = [make_alias(bookmark, **kwargs) for bookmark in bookmarks]
+    aliases = [make_alias(bookmark, **kwargs) for bookmark in bookmarks.items()]
     return aliases
 
 def make_bopen_aliases_file(**kwargs):
     bookmarks = get_bookmarks(**kwargs)
     aliases = make_aliases(bookmarks, **kwargs)
     with open(BOPEN_ALIASES_PATH, 'w') as aliases_file:
+        print('Aliases saved in {}'.format(BOPEN_ALIASES_PATH))
         contents = '\n'.join(aliases)
         aliases_file.write(contents)
-
-if __name__ == '__main__':
-    make_bopen_aliases_file()
 

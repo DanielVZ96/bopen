@@ -1,9 +1,11 @@
 import logging
 import platform
+import os
 from shutil import which
 from subprocess import check_output
 
 MACOS = not platform.mac_ver() == ('', ('', '', ''), '')
+CWD = os.getcwd()
 
 
 def get_open_name():
@@ -15,8 +17,11 @@ def get_open_name():
 
 def get_default_browser():
     try:
-        if not MACOS:
-            return _get_linux_default_browser()
+        if MACOS:
+            logging.info('Macos: {}'.format(MACOS))
+            print('Macos: {}'.format(MACOS))
+            return _get_macos_default_browser()
+        return _get_linux_default_browser()
     except Exception as e:
         logging.debug(e)
         logging.info('Couldn\'t get the default browser.')
@@ -28,10 +33,10 @@ def _get_linux_default_browser():
             if 'x-scheme-handler/http' in line:
                 default_value = line.split('=')[1]
                 if ';' in default_value:
-                    return default_value.split(';')[0].strip('.desktop')
+                    return default_value.split(';')[0].strip('.desktop').lower()
                 return default_value
 
 
 def _get_macos_default_browser():
-    return check_output('./macos_default_browser.sh')
+    return check_output(['./macos_default_browser.sh'], shell=True).decode('utf-8').split('.')[1]
 
