@@ -1,8 +1,12 @@
 # Bopen
 Open bookmarks from the shell
 
-## TODO
-- [ ] Implement logging.
+### Usage
+
+
+### TODO
+- [ ] Bopen --list -l bookmarks
+- [ ] Implement logging
 - [ ] Linux support:
   - [ ] Add/update/test linux bookmarks location in `bookmarks.py`
   - [ ] Detect defaults in linux in `os_helpers.py`
