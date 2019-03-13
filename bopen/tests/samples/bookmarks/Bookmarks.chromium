@@ -1,0 +1,201 @@
+{
+   "checksum": "033630e8fa4d284c1bbc7d1e056819d1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13194969433901892",
+            "id": "37",
+            "meta_info": {
+               "last_visited_desktop": "13196185012778094"
+            },
+            "name": "drive",
+            "type": "url",
+            "url": "https://drive.google.com/drive/u/2/my-drive"
+         }, {
+            "date_added": "13194967960022706",
+            "id": "34",
+            "meta_info": {
+               "last_visited_desktop": "13196346964003393"
+            },
+            "name": "kpi",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1fUEu_2Nj68BJl_5Xnu9G7PsDDbF9DGZxA0KvExZ8Cuc/edit#gid=2122366625"
+         }, {
+            "date_added": "13194967970597159",
+            "id": "35",
+            "meta_info": {
+               "last_visited_desktop": "13196183315072821"
+            },
+            "name": "sla",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1pEzEJjGP6UJYzhi1VDOV9hLRkxQdzMnRvou7cXd5bB8/edit#gid=0"
+         }, {
+            "date_added": "13194969441747138",
+            "id": "38",
+            "meta_info": {
+               "last_visited_desktop": "13195669299072914"
+            },
+            "name": "servers",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/u/2/d/14WtFAbowQ9wBZ4iQTnl7l869t6djikA8dqGr0Ijlshk/edit?usp=drive_web&ouid=107032825728184286585"
+         }, {
+            "date_added": "13194974279095337",
+            "id": "39",
+            "meta_info": {
+               "last_visited_desktop": "13195505631877073"
+            },
+            "name": "cuentas",
+            "type": "url",
+            "url": "https://docs.google.com/spreadsheets/d/1tAQjYQ-MuFvmnxWD_ONf6Dtrs0phg0JmaQXgr3g7b_g/edit#gid=431381721"
+         }, {
+            "date_added": "13194990870691233",
+            "id": "44",
+            "meta_info": {
+               "last_visited_desktop": "13195927656981958"
+            },
+            "name": "ignition",
+            "type": "url",
+            "url": "http://master-ignition.admetricks.net/admin/"
+         }, {
+            "date_added": "13194967978710031",
+            "id": "36",
+            "meta_info": {
+               "last_visited_desktop": "13196281824076011"
+            },
+            "name": "elk",
+            "type": "url",
+            "url": "https://elk.admetricks.net/ki/"
+         }, {
+            "date_added": "13194986969237749",
+            "id": "43",
+            "meta_info": {
+               "last_visited_desktop": "13196282622243293"
+            },
+            "name": "ki",
+            "type": "url",
+            "url": "http://kibana.admetricks.net/_plugin/kibana/app/kibana#/"
+         }, {
+            "date_added": "13194976057066605",
+            "id": "40",
+            "meta_info": {
+               "last_visited_desktop": "13196204198750206"
+            },
+            "name": "webadmx",
+            "type": "url",
+            "url": "https://web.admetricks.com/#/home"
+         }, {
+            "date_added": "13194985593602090",
+            "id": "41",
+            "meta_info": {
+               "last_visited_desktop": "13195496779253111"
+            },
+            "name": "datadog",
+            "type": "url",
+            "url": "https://app.datadoghq.com/screen/544932/general-status-server-proxy?tile_size=m&page=0&is_auto=false&from_ts=1550508420000&to_ts=1550512020000&live=true"
+         }, {
+            "date_added": "13194985631601612",
+            "id": "42",
+            "meta_info": {
+               "last_visited_desktop": "13196306111993997"
+            },
+            "name": "scw",
+            "type": "url",
+            "url": "https://cloud.scaleway.com/#/zones/par1/servers"
+         }, {
+            "date_added": "13195163950641515",
+            "id": "45",
+            "meta_info": {
+               "last_visited_desktop": "13196284094113920"
+            },
+            "name": "aws",
+            "type": "url",
+            "url": "https://console.aws.amazon.com/console/home?region=us-east-1"
+         }, {
+            "date_added": "13195232456497365",
+            "id": "46",
+            "meta_info": {
+               "last_visited_desktop": "13196287983543211"
+            },
+            "name": "s3",
+            "type": "url",
+            "url": "https://s3.console.aws.amazon.com/s3/home?region=us-east-1#"
+         }, {
+            "date_added": "13196284116494194",
+            "id": "54",
+            "meta_info": {
+               "last_visited_desktop": "13196284116496964"
+            },
+            "name": "sqs",
+            "type": "url",
+            "url": "https://console.aws.amazon.com/sqs/home?region=us-east-1#"
+         }, {
+            "date_added": "13195261968023343",
+            "id": "47",
+            "meta_info": {
+               "last_visited_desktop": "13196287727394335"
+            },
+            "name": "jenkins",
+            "type": "url",
+            "url": "http://jenkins.admetricks.net/view/Adspy/job/adspy-deployer-dockerhub/configure"
+         }, {
+            "date_added": "13195507247711233",
+            "id": "48",
+            "meta_info": {
+               "last_visited_desktop": "13196097525410800"
+            },
+            "name": "whatsapp",
+            "type": "url",
+            "url": "https://web.whatsapp.com/"
+         }, {
+            "date_added": "13195571318730713",
+            "id": "49",
+            "meta_info": {
+               "last_visited_desktop": "13196269006576063"
+            },
+            "name": "github",
+            "type": "url",
+            "url": "https://github.com/"
+         }, {
+            "date_added": "13195593261427913",
+            "id": "50",
+            "meta_info": {
+               "last_visited_desktop": "13196180584768533"
+            },
+            "name": "sentry",
+            "type": "url",
+            "url": "https://sentry.io/organizations/admetricks/issues/907341340/?project=78839&referrer=slack&statsPeriod=14d"
+         }, {
+            "date_added": "13196290159036470",
+            "id": "55",
+            "meta_info": {
+               "last_visited_desktop": "13196290990041538"
+            },
+            "name": "pivotal",
+            "type": "url",
+            "url": "https://www.pivotaltracker.com/dashboard"
+         } ],
+         "date_added": "13194966216290899",
+         "date_modified": "13196290159036470",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13194966216291066",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13194966216291071",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

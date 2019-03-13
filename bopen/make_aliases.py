@@ -3,7 +3,7 @@
 import os
 import json
 
-from bookmarks import get_bookmarks
+from .bookmarks import get_bookmarks
 
 HOME = os.environ.get('HOME')
 BOPEN_ALIASES_PATH = os.environ.get('BOPEN_PATH', HOME + '/.bopenaliases')

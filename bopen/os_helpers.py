@@ -2,7 +2,7 @@ import logging
 import platform
 import os
 from shutil import which
-from subprocess import check_output
+from subprocess import run
 
 MACOS = not platform.mac_ver() == ('', ('', '', ''), '')
 CWD = os.getcwd()
@@ -38,5 +38,7 @@ def _get_linux_default_browser():
 
 
 def _get_macos_default_browser():
-    return check_output(['./macos_default_browser.sh'], shell=True).decode('utf-8').split('.')[1]
-
+    command = """
+    defaults read ~/Library/Preferences/com.apple.LaunchServices/com.apple.launchservices.secure.plist | awk -F '"' '/http;/{print window[(NR)-1]}{window[NR]=$2}'
+    """
+    return run(command, shell=True, capture_output=True, check=True).stdout.decode('utf-8').split('.')[1]

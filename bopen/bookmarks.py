@@ -1,7 +1,7 @@
 import os
 import json
 import logging
-from os_helpers import MACOS, get_default_browser
+from .os_helpers import MACOS, get_default_browser
 
 BOOKMARKS_PATH = os.environ.get('BOOKMARKS_test', None)
 
@@ -57,7 +57,7 @@ def get_url_from_bookmark(bookmark, **kwargs):
     if bookmark in bookmarks.keys():
         return bookmarks[bookmark]
     else:
-        suggestion = ', '.join(list(bookmarks.keys()))
+        suggestion = '  ' + '\n  '.join(list(bookmarks.keys()))
         raise BookmarkNotFound('Couldn\'t find your bookmark. These are the ' +
                                'default browser bookmarks:\n{}'.format(suggestion))
 
