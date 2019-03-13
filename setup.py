@@ -5,14 +5,15 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bopen",
-    version="0.0.1",
+    version="0.1.1.dev1",
     author="Daniel Valenzuela",
     author_email="dowy.vz6@gmail.com",
     description="Open bookmarks from your shell.",
+    keywords='sample setuptools development',
+    packages=setuptools.find_packages(exclude=['tests*']),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/DanielVZ06/bopen",
-    packages=setuptools.find_packages(),
+    url="https://github.com/DanielVZ96/bopen",
     entry_points = {
         'console_scripts': [
             'bopen = bopen.bopen:main'
